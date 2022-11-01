@@ -1,1 +1,72 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"><link rel="stylesheet" href="styles.css"><title>CGPA CALCULATOR</title></head><body><div class="calculator-box"><h1>CGPA CALCULATOR</h1><div class="intro"><p>This CGPA Calculator is based on the Nigerian University grading system.</p><p><caption>AMBROSE ALLI UNIVERSITY</caption></p></div><div class="instruction"><caption>Instruction: Enter all your courses, course units and grades</caption></div><hr><div id="course-wrapper"><form class="key-0"><div class="info-box"><p><label id="course-row" for="courses">Courses:</label><label id="credit-row" for="credit-units">Course Units:</label><label id="grade-row" for="grade">Grades:</label></p></div><div class="dive"><input type="text" placeholder="Course Code" class="courses key-0" required> <input type="number" class="credit-units key-0" placeholder="Credit Units" value="" required><select class="grade key-0" required><option class="grade" value="select">Select</option><option class="grade" value="5">A</option><option class="grade" value="4">B</option><option class="grade" value="3">C</option><option class="grade" value="2">D</option><option class="grade" value="0">F</option></select><span class="addBtn" onclick="addCourse()">Add course</span></div></form></div><div class="btn"><button class="calBtn" onclick="calcCgpa()">Calculate CGPA</button></div><div class="lastp"><p id="cgpa-calc"></p><div class="footer"><caption>© Design with 💖 by etech |<a style="color:#f5f5f5;text-decoration:none" href="Tel:09156049356">09156049356</a></caption></div></div></div><script src="main.js"></script>--></body></html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <link rel="stylesheet" href="styles.css">
+    <title>CGPA CALCULATOR</title>
+</head>
+
+<body>
+    <div class="calculator-box">
+        <h1>CGPA CALCULATOR</h1>
+        <div class="intro">
+        <p>
+            This CGPA Calculator is based on the Nigerian University grading
+            system.
+        </p>
+        <p>
+            <caption>AMBROSE ALLI UNIVERSITY</caption>
+        </p>
+        </div>
+        <div class="instruction">
+        <caption >Instruction: Enter all your courses, course units and grades</caption>
+    </div>
+        <hr>
+        <div id="course-wrapper">
+            <form class="key-0">
+                <div class="info-box">
+                <p> <label id="course-row" for="courses">Courses:</label>
+                    <label id="credit-row" for="credit-units">Course Units:</label>
+                    <label id="grade-row" for="grade">Grades: </label>
+                </p>
+                </div>
+                <div class="dive">
+                    <input type="text" placeholder="Course Code" class="courses key-0" required />
+                    <!--               <label for="credit-units">Credit Units:</label> -->
+                    <input type="number" class="credit-units key-0" placeholder="Credit Units" value="" required />
+                    <!--               <label for="grade">Grade: </label> -->
+                    <select class="grade key-0" required>
+                        <option class="grade" value="select">Select</option>
+                        <option class="grade" value="5">A</option>
+                        <option class="grade" value="4">B</option>
+                        <option class="grade" value="3">C</option>
+                        <option class="grade" value="2">D</option>
+                        <!-- <option class="grade" value="1">E</option> -->
+                        <option class="grade" value="0">F</option>
+                    </select>
+                <span class="addBtn" onclick="addCourse()">
+                    Add course
+                </span>
+                </div>
+            </form>
+        </div>
+        <div class="btn">
+            <button class="calBtn" onclick="calcCgpa()">Calculate CGPA</button>
+        </div>
+        <div class="lastp">
+            <p id="cgpa-calc"></p>
+
+            <div class="footer">
+                <caption>© Design with 💖 by etech | <a style="color:whitesmoke; text-decoration:none" href="Tel:09156049356">09156049356</a></caption>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+    </script> -->
+</body>
+
+</html>
