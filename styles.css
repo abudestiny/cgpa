@@ -1,8 +1,11 @@
-* {
+/* ===== Google Font Import poppins ===== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'poppins', sans-serif;
 }
 
 body{
@@ -255,12 +258,12 @@ select {
     
     #credit-row {
         font-size: .9rem;
-        margin-left: 19%;
+        margin-left: 8%;
     }
     
     #grade-row {
         font-size: .9rem;
-        margin-left: 14%;
+        margin-left: 5%;
     }
     .instruction{
         display: flex;
