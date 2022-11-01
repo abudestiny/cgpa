@@ -247,18 +247,19 @@ select {
     h1 {
         font-size: 2rem;
     }
+
     #course-row {
-        font-size: 13px;
+        font-size: .9rem;
         margin-left: -5%;
     }
     
     #credit-row {
-        font-size: 13px;
+        font-size: .9rem;
         margin-left: 19%;
     }
     
     #grade-row {
-        font-size: 13px;
+        font-size: .9rem;
         margin-left: 14%;
     }
     .instruction{
