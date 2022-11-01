@@ -39,7 +39,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    color: rgb(141, 138, 138);
+    color: rgb(219, 20, 20);
     font-size: .8rem;
 }
 .intro p {
@@ -207,6 +207,12 @@ select {
     .calculator-box {
         width: 90%;
     }
+    *, .footer{
+        font-size: .8rem;
+    }
+    h1 {
+        font-size: 2.5rem;
+    }
     #course-row {
         font-size: 15px;
         margin-left: -16%;
@@ -220,6 +226,47 @@ select {
     #grade-row {
         font-size: 15px;
         margin-left: 14%;
+    }
+    .instruction{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: rgb(219, 20, 20);
+        font-size: .8rem;
+    }
+    
+}
+/* On screens that are 550px or less, set the width to 90% */
+@media screen and (max-width: 550px) {
+    .calculator-box {
+        width: 90%;
+    }
+    *, .footer{
+        font-size: .8rem;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    #course-row {
+        font-size: 13px;
+        margin-left: -5%;
+    }
+    
+    #credit-row {
+        font-size: 13px;
+        margin-left: 19%;
+    }
+    
+    #grade-row {
+        font-size: 13px;
+        margin-left: 14%;
+    }
+    .instruction{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: rgb(233, 38, 12);
+        font-size: .8rem;
     }
     
 }
