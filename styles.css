@@ -1,1 +1,225 @@
-*{margin:0;padding:0;box-sizing:border-box;font-family:sans-serif}body{background:#16182c}#course-row{font-size:20px;font-weight:bolder;margin-left:-2%}#credit-row{font-size:20px;font-weight:bolder;margin-left:13%}#grade-row{font-size:20px;font-weight:bolder;margin-left:8%}.calculator-box{width:50%;height:auto;border:2px solid #ccc;border-radius:10px;margin:100px auto}.instruction{display:flex;align-items:center;justify-content:center;color:rgb(141,138,138);font-size:.8rem}.intro p{color:#fff}h1{padding:15px;font-size:40px;text-align:center;border:1px solid #3b3a5c;border-radius:7px;background-color:#3D515C}p{padding:20px;font-size:1rem;color:#cccc;text-align:center}.dive{display:flex;text-align:center;justify-content:center}.dive .add{font-size:.75rem}.dive p:hover{cursor:pointer}input{border:1px solid #000;padding:15px;margin:10px;border-radius:5px;width:30%;text-align:center;cursor:text}select{margin-top:10px;padding:15px;border:1px solid #000;border-radius:7.5px;width:10%;height:10%}.addBtn{font-size:.85rem;padding-top:10px;color:#fff;margin-left:13px;margin-top:10px;width:92px;height:44px;border:1px solid #fff;border-radius:10%;transition:all 0.4s ease}.addBtn:hover{cursor:pointer;border-radius:10%;border-style:solid;color:#fff;background:#3D515C;border-color:#3D515C}.calBtn{width:20%;height:40px;padding:3px;margin:5px auto;border-width:3px;border-radius:10%;border:1px solid #fff;transition:all 0.4s ease}.calBtn:hover{width:20%;height:40px;padding:1px;margin:5px auto;border-width:3px;border-radius:10%;border-style:solid;color:#fff;background:#3D515C;border-color:#3D515C;cursor:pointer}.btn{width:100%;padding:10px;display:inline-block;margin:0 auto;text-align:center}.lastp{border:1px solid #3D515C;border-radius:7px;margin-top:30px;background-color:#3D515C}.lastp p{color:#fff;text-align:center;padding:10px;font-size:30px;font-weight:bolder}.footer{text-align:center;padding:10px;font-size:15px}@media screen and (max-width:1200px){.calculator-box{width:70%}#course-row{font-size:20px;font-weight:bolder;margin-left:-2%}#credit-row{font-size:20px;font-weight:bolder;margin-left:13%}#grade-row{font-size:20px;font-weight:bolder;margin-left:8%}}@media screen and (max-width:950px){.calculator-box{width:75%}}@media screen and (max-width:600px){.calculator-box{width:90%}#course-row{font-size:15px;margin-left:-16%}#credit-row{font-size:15px;margin-left:19%}#grade-row{font-size:15px;margin-left:14%}}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background:  #16182c;
+}
+
+#course-row {
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: -2%;
+}
+
+#credit-row {
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 13%;
+}
+
+#grade-row {
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 8%;
+}
+
+.calculator-box {
+    width: 50%;
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    margin: 100px auto;
+    /*  text-align: center; */
+}
+.instruction{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(141, 138, 138);
+    font-size: .8rem;
+}
+.intro p {
+    color: #fff;
+}
+
+h1 {
+    padding: 15px;
+    font-size: 40px;
+    text-align: center;
+    border: 1px solid #3b3a5c;
+    border-radius: 7px;
+    background-color: #3D515C;
+}
+
+
+p {
+    padding: 20px;
+    font-size: 1rem;
+    color: #cccccccc;
+    text-align: center;
+}
+.dive{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.dive .add{
+    font-size: .75rem;
+}
+.dive p:hover{
+    cursor: pointer;
+}
+
+input {
+    border: 1px solid #000;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 30%;
+    text-align: center;
+    cursor: text;
+}
+
+select {
+    margin-top: 10px;
+    padding: 15px;
+    border: 1px solid #000;
+    border-radius: 7.5px;
+    width: 10%;
+      height: 10%;
+}
+.addBtn{
+    font-size: .85rem;
+    padding-top: 10px;
+    color: #fff;
+    margin-left: 13px;
+    margin-top: 10px;
+   width: 92px;
+   height: 44px;
+   border: 1px solid white;
+   border-radius: 10%;
+    transition: all 0.4s ease;
+}
+.addBtn:hover{
+    cursor: pointer;
+    border-radius: 10%;
+    border-style: solid;
+    color: #fff;
+    background: #3D515C;
+    border-color: #3D515C;
+
+}
+
+.calBtn {
+    width: 20%;
+    height: 40px;
+    padding: 3px;
+    margin: 5px auto;
+    border-width: 3px;
+    border-radius: 10%;
+    border: 1px solid white;
+    transition: all 0.4s ease;
+}
+
+.calBtn:hover {
+    width: 20%;
+    height: 40px;
+    padding: 1px;
+    margin: 5px auto;
+    border-width: 3px;
+    border-radius: 10%;
+    border-style: solid;
+    color: #fff;
+    background: #3D515C;
+    border-color: #3D515C;
+    cursor: pointer;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.lastp {
+    border: 1px solid #3D515C;
+    border-radius: 7px;
+    margin-top: 30px;
+    background-color: #3D515C;
+}
+
+.lastp p {
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+}
+
+
+
+/* On screens that are 1200px or less, set the width to 75% */
+@media screen and (max-width: 1200px) {
+    .calculator-box {
+        width: 70%;
+    }
+    #course-row {
+        font-size: 20px;
+        font-weight: bolder;
+        margin-left: -2%;
+    }
+    
+    #credit-row {
+        font-size: 20px;
+        font-weight: bolder;
+        margin-left: 13%;
+    }
+    
+    #grade-row {
+        font-size: 20px;
+        font-weight: bolder;
+        margin-left: 8%;
+    }
+}
+
+/* On screens that are 950px or less, set the width to 75% */
+@media screen and (max-width: 950px) {
+    .calculator-box {
+        width: 75%;
+    }
+}
+
+
+/* On screens that are 600px or less, set the width to 90% */
+@media screen and (max-width: 600px) {
+    .calculator-box {
+        width: 90%;
+    }
+    #course-row {
+        font-size: 15px;
+        margin-left: -16%;
+    }
+    
+    #credit-row {
+        font-size: 15px;
+        margin-left: 19%;
+    }
+    
+    #grade-row {
+        font-size: 15px;
+        margin-left: 14%;
+    }
+    
+}
